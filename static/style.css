@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nick {
+  font-weight: bold;
+}
+
+.message.error {
+  color: #c00;
+}
+
+.message.join ,
+.message.part {
+  color: #0c0;
+}
+
+.message.priv {
+  color: #606;
+}
+
+.message.nick ,
+.message.list {
+  font-weight: normal;
+  color: #00c;
+}
+
+.message.list ul {
+  list-style-position: inside;
+}
+
+.message {
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+.message.ping {
+  width: 100%;
+  height: 2px;
+  background: #eee;
+  margin: 0;
+}
+
+body, html {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background: #ddd;
+}
+
+body {
+  padding: 5px;
+}
+
+#messages {
+  height: calc(100% - 100px);
+  width: 100%;
+  border: 1px solid #369;
+  padding: 5px 10px;
+  background: #fff;
+  box-sizing: border-box;
+  overflow-y: scroll;
+}
+
+#form {
+  height: 90px;
+  padding: 5px;
+  margin: 5px 5px;
+  box-sizing: border-box;
+}
+
+#msg {
+  width: 200px;
+}
